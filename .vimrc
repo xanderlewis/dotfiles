@@ -1,4 +1,4 @@
-set number
+set relativenumber
 set showmatch
 set textwidth=200
 
