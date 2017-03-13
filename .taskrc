@@ -21,16 +21,17 @@ data.location=~/.task
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-red-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-green-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-blue-256.theme
-include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-violets-256.theme
+##include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-violets-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
+include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
 
 urgency.user.tag.school.coefficient=2
 urgency.user.tag.exam.coefficient=2
+urgency.user.tag.revision.coefficient=2
 urgency.user.tag.homework.coefficient=5
-urgency.user.tag.coursework.coefficient=-2
+urgency.user.tag.coursework.coefficient=1
 urgency.user.tag.driving.coefficient=2
